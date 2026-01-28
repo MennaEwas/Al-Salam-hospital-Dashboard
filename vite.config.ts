@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 const API_TARGET = "https://salemuatapi.alsalamhosp.com:446";
 
 export default defineConfig({
+  base: "/Al-Salam-hospital-Dashboard/",
   plugins: [react()],
   server: {
     proxy: {
